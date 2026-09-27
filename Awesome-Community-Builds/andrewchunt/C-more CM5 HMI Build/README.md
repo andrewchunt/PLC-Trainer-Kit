@@ -17,7 +17,7 @@ https://github.com/oniskin/PLC-Trainer-Kit
 
 Below is my completed OT Lab build with the physical CLICK PLC, C-more CM5-T7W HMI, controls, relays, networking, and simulated motor/process installed.
 
-
+![](./Images/OT_Lab.jpg)
 
 The lab is designed to provide a small but functional representation of a common manufacturing OT/ICS environment.
 
