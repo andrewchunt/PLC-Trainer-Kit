@@ -292,7 +292,7 @@ These are useful both as documentation and as a reference when demonstrating how
 
 During normal operation with the motor stopped, the HMI indicates that the process is ready but the simulated motor is not currently running.
 
-[](./Images/HMI_Motor_Stopped.png)
+![](./Images/HMI_Motor_Stopped.png)
 
 From this state, the user can start the process using either the appropriate physical control or the HMI.
 
@@ -300,7 +300,7 @@ From this state, the user can start the process using either the appropriate phy
 
 When the process is started, the HMI changes to indicate that the simulated motor is currently running.
 
-[](./Images/HMI_Motor_Running.png)
+![](./Images/HMI_Motor_Running.png)
 
 This demonstrates how the HMI receives process information from the CLICK PLC and provides the operator with visual feedback about the current state of the equipment.
 
@@ -310,7 +310,7 @@ The process can then be stopped using either the physical STOP button or the app
 
 When the physical Emergency Stop is activated, the PLC detects the condition and the HMI displays the Emergency Stop state.
 
-[](./Images/HMI_Emergency_Stop_Activated.png)
+![](./Images/HMI_Emergency_Stop_Activated.png)
 
 While the Emergency Stop condition is active:
 
