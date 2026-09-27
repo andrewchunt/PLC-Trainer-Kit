@@ -48,7 +48,7 @@ A big thank you to Oren Niskin and the Packets-or-it-didn't-happen community for
 
 If you're interested in building the original PLC Trainer Kit or learning more about the project, start here:
 
-➡️ Original PLC-Trainer-Kit Repository
+➡️ [Original PLC-Trainer-Kit Repository](https://github.com/oniskin/PLC-Trainer-Kit)
 
 ⚠️ Disclaimer
 
