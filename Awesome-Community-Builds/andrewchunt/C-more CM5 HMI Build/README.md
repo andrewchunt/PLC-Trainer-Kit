@@ -117,6 +117,21 @@ Represents a plant motor or industrial process
                  │
             Fan / Motor
 
+```mermaid
+flowchart TD
+    NET["Isolated OT / ICS Network<br/>192.168.1.0/24"]
+    SW["UniFi Switch Flex Mini<br/>192.168.1.2"]
+    PLC["CLICK PLC<br/>192.168.1.3"]
+    HMI["C-more CM5-T7W<br/>192.168.1.4"]
+    IO["Physical I/O"]
+
+    NET --> SW
+    SW --> PLC
+    SW --> HMI
+    PLC <--> HMI
+    PLC --> IO
+```
+
 The trainer represents a simplified industrial environment where an operator interacts with a physical process through both local physical controls and an HMI.
 
 ## 🌐 Network Configuration
