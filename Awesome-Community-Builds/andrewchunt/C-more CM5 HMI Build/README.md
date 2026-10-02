@@ -452,6 +452,7 @@ Part of the purpose of this project is to encourage hands-on learning. Breaking 
 
 The repository has been intentionally kept simple and is organized into three primary folders:
 
+```text
 C-more CM5 HMI Build/
 │
 ├── Guides/
@@ -475,6 +476,7 @@ C-more CM5 HMI Build/
 │
 ├── LICENSE
 └── README.md
+```
 
 Guides
 
