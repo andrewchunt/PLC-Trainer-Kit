@@ -456,16 +456,16 @@ The repository has been intentionally kept simple and is organized into three pr
 C-more CM5 HMI Build/
 │
 ├── Guides/
-│   ├── Welcome-to-the-OT-Lab.md
-│   ├── Export-CLICK-PLC-Tags.md
-│   └── Import-CLICK-Tags-to-CMore.md
+│   ├── Exporting Tags from a CLICK PLC to a CSV File.md
+│   ├── Importing CLICK PLC Tags into a C-more HMI.md
+│   └── Welcome to the OT Lab.md
 │
 ├── Images/
-│   ├── OT_Lab.jpg
-│   ├── Manufacturing_Control_System_Components_Overview.png
-│   ├── HMI_Motor_Stopped.png
+│   ├── HMI_Emergency_Stop_Activated.png
 │   ├── HMI_Motor_Running.png
-│   └── HMI_Emergency_Stop_Activated.png
+│   ├── HMI_Motor_Stopped.png
+│   ├── Manufacturing_Control_System_Components_Overview.png
+│   └── OT_Lab.jpg
 │
 ├── Project Files/
 │   ├── Click PLC/
