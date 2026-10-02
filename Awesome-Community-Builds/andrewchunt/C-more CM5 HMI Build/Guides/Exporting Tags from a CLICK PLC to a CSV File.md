@@ -12,11 +12,15 @@ For example:
 
 | PLC Address | Nickname |
 |-------------|----------|
-| X001 | Start_Button |
-| X002 | Stop_Button |
-| X003 | EStop_Button |
-| Y001 | Motor_Run |
-| C1 | System_Running |
+| X001 | Stop Button |
+| X002 | Start Button |
+| X003 | eStop Reset Button |
+| Y001 | Fast Run Command |
+| Y002 | Stopped Light |
+| Y003 | Running Light |
+| Y004 | eStop Reset Light |
+| C1 | HMI Stop |
+| C2 | HMI Start |
 
 Using consistent and descriptive nicknames also makes it much easier to identify and map the tags when they are later imported into the C-more HMI project.
 

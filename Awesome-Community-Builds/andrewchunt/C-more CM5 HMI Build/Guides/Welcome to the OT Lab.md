@@ -1,8 +1,8 @@
-Welcome to the OT Lab
+# Welcome to the OT Lab
 
 Understanding Industrial Control Systems Through Hands-On Learning
 
-Introduction
+## Introduction
 
 Welcome to our Operational Technology (OT) Lab! This interactive demonstration provides an opportunity to explore how industrial control systems operate in a manufacturing environment.
 
@@ -12,13 +12,13 @@ Our OT Lab represents a simplified Industrial Control System (ICS) commonly foun
 
 The goal is simple: see how the physical equipment, control logic, and operator controls work together by operating the lab yourself.
 
-Interactive Lab: Give It a Try!
+## Interactive Lab: Give It a Try!
 
 Follow the steps below to start the fan/motor, stop it, activate the emergency stop, and reset the system.
 
-Hands-on walkthrough
+## Hands-on walkthrough
 
-1   Start the Fan / Motor
+### 1   Start the Fan / Motor
 
 Your action: Press the green START button.
 
@@ -29,7 +29,7 @@ What happens when you press START?
 [ ] I've completed this step
 
 
-2   Stop the Fan / Motor
+### 2   Stop the Fan / Motor
 
 Your action: While the fan is running, press the STOP button.
 
@@ -40,7 +40,7 @@ How does the system respond to a normal stop?
 [ ] I've completed this step
 
 
-3   Restart and Activate the Emergency Stop
+### 3   Restart and Activate the Emergency Stop
 
 Your action: Press START again. Once the fan is running, press the red EMERGENCY STOP button.
 
@@ -51,7 +51,7 @@ What happens if you press START while the emergency stop is still engaged?
 [ ] I've completed this step
 
 
-4   Unlatch the Emergency Stop
+### 4   Unlatch the Emergency Stop
 
 Your action: Turn the emergency stop button in the indicated direction to release the latch.
 
@@ -62,7 +62,7 @@ Does releasing the emergency stop automatically restore operation?
 [ ] I've completed this step
 
 
-5   Reset the System
+### 5   Reset the System
 
 Your action: Press the RESET button after releasing the emergency stop.
 
@@ -73,7 +73,7 @@ Why must you release the emergency stop before RESET can take action?
 [ ] I've completed this step
 
 
-Understanding the Emergency Stop
+## Understanding the Emergency Stop
 
 Unlike the normal STOP button, the emergency stop is a latching button. Once pressed, it remains engaged until manually released.
 
@@ -93,7 +93,7 @@ Important: Pressing RESET while the emergency stop remains latched will not clea
 
 In this demonstration, RESET returns the lab to its previous state. Actual industrial machinery may require a separate START command after an emergency stop is reset. Never assume that releasing or resetting an emergency stop makes machinery safe to restart.
 
-Why Does This Matter?
+## Why Does This Matter?
 
 Industrial control systems connect the digital and physical worlds. A command issued through a button, HMI, or PLC can directly affect equipment operating in our plants.
 
