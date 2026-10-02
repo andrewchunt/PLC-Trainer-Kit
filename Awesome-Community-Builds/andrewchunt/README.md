@@ -1,4 +1,4 @@
-PLC Trainer Kit – Community Builds
+#PLC Trainer Kit – Community Builds
 
 This repository is a fork of the PLC-Trainer-Kit project created by Oren Niskin.
 
@@ -8,7 +8,7 @@ This fork is where I will share my own builds, modifications, and projects based
 
 Original Project: oniskin/PLC-Trainer-Kit
 
-🚀 My First Community Build
+##🚀 My First Community Build
 
 C-more CM5 Physical HMI Build
 
@@ -22,7 +22,7 @@ Detailed build information, configuration instructions, project files, and other
 
 ➡️ C-more CM5 HMI Build
 
-🔧 Future Projects
+##🔧 Future Projects
 
 This is my first contribution to the PLC Trainer Kit community and the first project in this repository.
 
@@ -42,7 +42,7 @@ Additional hardware and lab enhancements
 
 Future projects will be added to this repository as they are developed.
 
-🙏 Credit & Original Project
+##🙏 Credit & Original Project
 
 A big thank you to Oren Niskin and the Packets-or-it-didn't-happen community for creating and sharing the PLC Trainer Kit and encouraging the community to build upon it.
 
@@ -50,7 +50,7 @@ If you're interested in building the original PLC Trainer Kit or learning more a
 
 ➡️ [Original PLC-Trainer-Kit Repository](https://github.com/oniskin/PLC-Trainer-Kit)
 
-⚠️ Disclaimer
+##⚠️ Disclaimer
 
 These projects are intended for educational, training, and cybersecurity research purposes in controlled lab environments.
 
