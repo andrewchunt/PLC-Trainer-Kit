@@ -20,7 +20,7 @@ The build demonstrates communication between the PLC and C-more HMI while provid
 
 Detailed build information, configuration instructions, project files, and other documentation are available in the dedicated project folder:
 
-➡️ C-more CM5 HMI Build
+➡️ [C-more CM5 HMI Build](./C-more%20CM5%20HMI%20Build/)
 
 ## 🔧 Future Projects
 
