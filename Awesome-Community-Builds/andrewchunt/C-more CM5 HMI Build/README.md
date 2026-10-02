@@ -115,7 +115,7 @@ Represents a plant motor or industrial process
        ┌─────────┼───────────┐
   Pushbuttons  Relays      E-Stop
                  │
-            Fan / Motor
+            Fan or Motor
 
 ```mermaid
 flowchart TD
@@ -127,7 +127,7 @@ flowchart TD
     Pushbuttons["Pushbuttons"]
     Relays["Relays"]
     E-Stop["E-Stop"]
-    Fan / Motor["Fan / Motor"]
+    Fan_ Motor["Fan / Motor"]
 
     NET --> SW
     SW --> PLC
@@ -136,7 +136,7 @@ flowchart TD
     IO --> Pushbuttons
     IO --> Relays
     IO --> E-Stop
-    Relasy --> Fan / Motor
+    Relays --> Fan_Motor
 ```
 
 The trainer represents a simplified industrial environment where an operator interacts with a physical process through both local physical controls and an HMI.
