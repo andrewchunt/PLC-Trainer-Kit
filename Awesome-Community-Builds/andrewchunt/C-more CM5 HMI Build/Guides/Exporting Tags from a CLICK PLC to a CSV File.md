@@ -38,7 +38,7 @@ Choose the location where you want to save the exported file.
 
 Give the CSV file a descriptive name, such as:
 
-CLICK_PLC_Nicknames.csv
+PLC_OT_Lab.csv
 
 Complete the export.
 
