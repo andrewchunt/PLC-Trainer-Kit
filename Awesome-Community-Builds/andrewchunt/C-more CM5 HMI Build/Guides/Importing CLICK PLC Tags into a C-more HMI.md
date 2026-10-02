@@ -1,10 +1,10 @@
-Importing CLICK PLC Tags into a C-more HMI
+# Importing CLICK PLC Tags into a C-more HMI
 
 This guide explains how to take the tags exported from the CLICK PLC Programming Software and import them into the C-more Programming Software for use with your HMI project.
 
 Using the same tag names across the PLC and HMI makes the project easier to configure, troubleshoot, and maintain.
 
-Prerequisites
+## Prerequisites
 
 Before starting, make sure you have:
 
@@ -40,7 +40,7 @@ C-more HMI
 
 Subnet Mask: 255.255.255.0 (/24)
 
-Step 1 — Review the CLICK PLC Nickname Export
+## Step 1 — Review the CLICK PLC Nickname Export
 
 Locate the CSV file created using the CLICK Programming Software's Export Nickname option.
 
@@ -82,7 +82,7 @@ System_Running
 
 Tip: If an address does not have a nickname, return to the CLICK PLC project, assign one, and export the nickname file again. Using nicknames consistently makes the HMI project significantly easier to understand.
 
-Step 2 — Open the C-more HMI Project
+## Step 2 — Open the C-more HMI Project
 
 Launch the C-more Programming Software and open the project that will communicate with your CLICK PLC.
 
@@ -94,7 +94,7 @@ For this lab:
 
 CLICK PLC: 192.168.1.3
 
-Step 3 — Open the C-more Tag Database
+## Step 3 — Open the C-more Tag Database
 
 From within the C-more project, open the Tag Name Database.
 
@@ -124,7 +124,7 @@ Motor_Run
 
 System_Running
 
-Step 4 — Export a C-more Tag CSV as a Template
+## Step 4 — Export a C-more Tag CSV as a Template
 
 Before attempting to import your CLICK tags, it is helpful to first export a small tag database from C-more.
 
@@ -134,7 +134,7 @@ This gives you a CSV file containing the exact column structure and formatting e
 
 Important: The CSV file exported from CLICK is not necessarily in the same format expected by C-more. Do not assume that the CLICK Nickname CSV can be imported directly without modification.
 
-Step 5 — Prepare the Tags for C-more
+## Step 5 — Prepare the Tags for C-more
 
 Open both:
 
@@ -186,7 +186,7 @@ CLICK_Tags_for_Cmore.csv
 
 Recommendation: Keep the original CLICK export unchanged. Create a separate CSV file for the C-more import so you always have the original PLC export available for reference.
 
-Step 6 — Import the CSV into C-more
+## Step 6 — Import the CSV into C-more
 
 Return to the C-more Programming Software and open the Tag Name Database.
 
@@ -200,7 +200,7 @@ Complete the import process.
 
 C-more should populate the Tag Name Database with the imported tag names and their associated PLC addresses.
 
-Step 7 — Verify the Imported Tags
+## Step 7 — Verify the Imported Tags
 
 After the import completes, review the Tag Name Database before downloading the project to the HMI.
 
@@ -220,7 +220,7 @@ No required tags are missing.
 
 Pay particular attention to addresses that the HMI will write to, such as Start, Stop, Reset, or other control commands.
 
-Step 8 — Use the Tags in Your HMI Screens
+## Step 8 — Use the Tags in Your HMI Screens
 
 You can now use the imported tags when configuring C-more screen objects.
 
@@ -238,7 +238,7 @@ Motor_Run
 
 This creates a much clearer relationship between the PLC logic and the HMI interface.
 
-Step 9 — Download and Test
+## Step 9 — Download and Test
 
 After verifying your tags:
 
@@ -256,7 +256,7 @@ For this lab, try operating the system from both the physical controls and the C
 
 Verify that the HMI correctly reflects the current state of the PLC and simulated motor.
 
-Troubleshooting
+## Troubleshooting
 
 If an HMI object does not work as expected, check the tag configuration first.
 
@@ -266,7 +266,7 @@ Also compare the C-more Tag Name Database against the original CLICK Nickname ex
 
 If multiple tags are not working, verify PLC communications before troubleshooting each individual tag.
 
-Keeping the PLC and HMI Projects Synchronized
+## Keeping the PLC and HMI Projects Synchronized
 
 As you modify your OT Lab, you may add new PLC addresses or change existing nicknames.
 
