@@ -127,7 +127,7 @@ flowchart TD
     Pushbuttons["Pushbuttons"]
     Relays["Relays"]
     E-Stop["E-Stop"]
-    Fan_ Motor["Fan / Motor"]
+    Fan_Motor["Fan / Motor"]
 
     NET --> SW
     SW --> PLC
