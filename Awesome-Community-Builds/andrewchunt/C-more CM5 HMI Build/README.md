@@ -1,4 +1,4 @@
-PLC Trainer Kit — C-more CM5 HMI Build
+# PLC Trainer Kit — C-more CM5 HMI Build
 
 This repository documents my personal build and extension of the Packets-or-it-didn't-happen PLC Trainer Kit, originally created by Oren Niskin / oniskin.
 
@@ -13,7 +13,7 @@ I've also included hands-on guides, visual references, HMI screenshots, and the 
 Original Project:
 https://github.com/oniskin/PLC-Trainer-Kit
 
-🧰 My OT Lab
+## 🧰 My OT Lab
 
 Below is my completed OT Lab build with the physical CLICK PLC, C-more CM5-T7W HMI, controls, relays, networking, and simulated motor/process installed.
 
@@ -23,7 +23,7 @@ The lab is designed to provide a small but functional representation of a common
 
 Users can interact with the physical controls, operate the process through the HMI, examine the PLC logic, observe network communications, and experiment with the supplied project files.
 
-🏭 About This Build
+## 🏭 About This Build
 
 The goal of this build was to create a compact but realistic OT/ICS training environment using actual industrial control components.
 
@@ -39,7 +39,7 @@ The entire environment is designed to operate as an isolated OT lab. The core de
 
 This provides a useful environment for learning both industrial automation and OT cybersecurity concepts.
 
-⚙️ Lab Components
+## ⚙️ Lab Components
 
 My version of the trainer includes the following major components:
 
@@ -95,7 +95,7 @@ Resets the process after an emergency stop
 
 Represents a plant motor or industrial process
 
-🏗️ Simplified Architecture
+## 🏗️ Simplified Architecture
 
                   Isolated OT / ICS Network
                        192.168.1.0/24
@@ -125,7 +125,7 @@ Represents a plant motor or industrial process
 
 The trainer represents a simplified industrial environment where an operator interacts with a physical process through both local physical controls and an HMI.
 
-🌐 Network Configuration
+## 🌐 Network Configuration
 
 The lab uses a dedicated, isolated IPv4 network.
 
@@ -164,7 +164,7 @@ Because this is an isolated lab, a default gateway or DNS server is not required
 
 Note: The 192.168.1.0/24 network is used specifically for this isolated training environment. If the lab is connected to another network for management, updates, demonstrations, or Internet access, appropriate routing, segmentation, and security controls should be implemented.
 
-📚 Guides — Start Here
+## 📚 Guides — Start Here
 
 The Guides folder contains the documentation and hands-on instructions provided with the project.
 
@@ -178,7 +178,7 @@ Export CLICK PLC Tags — Instructions for exporting nicknames/tags from the CLI
 
 Import CLICK Tags to C-more — Instructions for importing the exported PLC tags into the C-more HMI project.
 
-🏭 Welcome to the OT Lab
+## 🏭 Welcome to the OT Lab
 
 The Welcome to the OT Lab guide provides an introduction to the trainer and the basic concepts of an OT/ICS environment.
 
@@ -212,7 +212,7 @@ Observing how the physical process responds to PLC logic
 
 The goal is to first understand how the process operates normally before moving into networking, troubleshooting, or cybersecurity exercises.
 
-🖼️ Manufacturing Control System Components Overview
+## 🖼️ Manufacturing Control System Components Overview
 
 I've provided a Manufacturing Control System Components Overview infographic under the Images folder.
 
@@ -256,7 +256,7 @@ Together, the actual lab photo, infographic, and Welcome guide provide a simple 
 
 See the Lab → Identify the Components → Understand Their Purpose → Operate the Process → Observe How Everything Works Together
 
-🖥️ C-more CM5 HMI
+## 🖥️ C-more CM5 HMI
 
 The primary addition to this build is a physical AutomationDirect C-more CM5-T7W 7-inch HMI.
 
@@ -282,13 +282,13 @@ Compare physical pushbutton commands with HMI commands
 
 The interface provides visual feedback so users can see how changes in the PLC-controlled process are reflected at the operator interface.
 
-🎛️ HMI Operating States
+## 🎛️ HMI Operating States
 
 Screenshots of the major HMI operating states are provided under the Images folder.
 
 These are useful both as documentation and as a reference when demonstrating how the HMI responds to changes in the physical process.
 
-⏹️ Motor Stopped
+### ⏹️ Motor Stopped
 
 During normal operation with the motor stopped, the HMI indicates that the process is ready but the simulated motor is not currently running.
 
@@ -296,7 +296,7 @@ During normal operation with the motor stopped, the HMI indicates that the proce
 
 From this state, the user can start the process using either the appropriate physical control or the HMI.
 
-▶️ Motor Running
+### ▶️ Motor Running
 
 When the process is started, the HMI changes to indicate that the simulated motor is currently running.
 
@@ -306,7 +306,7 @@ This demonstrates how the HMI receives process information from the CLICK PLC an
 
 The process can then be stopped using either the physical STOP button or the appropriate HMI control.
 
-🛑 Emergency Stop Activated
+### 🛑 Emergency Stop Activated
 
 When the physical Emergency Stop is activated, the PLC detects the condition and the HMI displays the Emergency Stop state.
 
@@ -338,7 +338,7 @@ This provides a hands-on demonstration of the relationship between a physical fi
 
 Training Lab Notice: The Emergency Stop implementation in this lab is intended for educational process simulation. It should not be interpreted as a design example for a production safety system. Actual machinery requires appropriate safety-rated components, engineering, risk assessment, and compliance with applicable standards.
 
-🔄 CLICK PLC to C-more Tag Guides
+## 🔄 CLICK PLC to C-more Tag Guides
 
 The Guides folder also contains instructions for transferring tag information between the AutomationDirect CLICK PLC and C-more HMI.
 
@@ -358,7 +358,7 @@ Using the exported nicknames makes it easier to maintain meaningful tag names be
 
 These guides are especially useful if you want to modify the provided projects or use this repository as the starting point for your own trainer.
 
-🆓 Programming Software
+## 🆓 Programming Software
 
 One of the advantages of this OT Lab is that the programming software required for both the CLICK PLC and C-more CM5 HMI is available free of charge from AutomationDirect.
 
@@ -416,7 +416,7 @@ Both programming packages can be obtained from the AutomationDirect website.
 
 Note: Make sure you download the current software version that supports your specific CLICK PLC and C-more CM5 hardware.
 
-💾 Project Files
+## 💾 Project Files
 
 The Project Files folder contains the actual project files used in my lab for both the:
 
@@ -452,16 +452,16 @@ The project files are provided as a starting point. Play around with the PLC log
 
 Part of the purpose of this project is to encourage hands-on learning. Breaking things, troubleshooting them, changing the logic, and figuring out why something behaves differently than expected are all part of learning how OT systems work.
 
-📂 Repository Structure
+## 📂 Repository Structure
 
 The repository has been intentionally kept simple and is organized into three primary folders:
 
 C-more CM5 HMI Build/
 │
 ├── Guides/
-│   ├── Welcome-to-the-OT-Lab.pdf
-│   ├── Export-CLICK-PLC-Tags.pdf
-│   └── Import-CLICK-Tags-to-CMore.pdf
+│   ├── Welcome-to-the-OT-Lab.md
+│   ├── Export-CLICK-PLC-Tags.md
+│   └── Import-CLICK-Tags-to-CMore.md
 │
 ├── Images/
 │   ├── OT_Lab.jpg
@@ -471,8 +471,11 @@ C-more CM5 HMI Build/
 │   └── HMI_Emergency_Stop_Activated.png
 │
 ├── Project Files/
-│   ├── PLC_OT_Lab.ckp
-│   └── HMI_OT_Lab.eapv
+│   ├── Click PLC/
+│   │   ├── PLC_OT_Lab.ckp
+│   │   └── PLC_OT_Lab.csv
+│   └── C-more HMI/
+│       └── HMI_OT_Lab.eapv
 │
 ├── LICENSE
 └── README.md
@@ -491,7 +494,7 @@ Contains the working CLICK PLC and C-more CM5 HMI project files.
 
 These files can be opened and modified using the corresponding free AutomationDirect programming software.
 
-🧪 Suggested Learning Path
+## 🧪 Suggested Learning Path
 
 If this is your first time using the lab, the following sequence provides a good starting point:
 
@@ -527,7 +530,7 @@ The overall learning progression is:
 
 See It → Identify It → Operate It → Understand It → Modify It → Secure It
 
-🔐 OT Cybersecurity Training
+## 🔐 OT Cybersecurity Training
 
 Once users understand how the process operates normally, the trainer can also serve as a controlled environment for introducing OT cybersecurity concepts.
 
@@ -561,7 +564,7 @@ Changes to an OT environment can potentially result in changes to a physical pro
 
 For this reason, users should first learn how the lab operates normally before beginning cybersecurity exercises.
 
-📚 What You Can Learn
+## 📚 What You Can Learn
 
 This project can be used as an introduction to several industrial automation and OT cybersecurity concepts, including:
 
@@ -599,7 +602,7 @@ Troubleshooting PLC and HMI communications
 
 Because both the PLC and HMI projects are provided, users can move beyond simply operating the trainer and begin exploring how the system was built and how the individual components interact.
 
-🙏 Credits
+## 🙏 Credits
 
 This project is based on the excellent PLC Trainer Kit created by Oren Niskin / Packets-or-it-didn't-happen.
 
@@ -633,7 +636,7 @@ The ability to modify both projects using free programming software from Automat
 
 Hopefully these additions make the original project even easier for others to build, demonstrate, experiment with, and use as a hands-on OT learning environment.
 
-🤝 Contributing and Experimenting
+## 🤝 Contributing and Experimenting
 
 This repository is intended to share ideas with the OT, automation, and cybersecurity communities.
 
@@ -643,7 +646,7 @@ Modify the PLC logic, redesign the HMI, add additional equipment, create new scr
 
 If you create something useful, consider sharing your improvements with the community so others can learn from them as well.
 
-⚠️ Safety and Responsible Use
+## ⚠️ Safety and Responsible Use
 
 This project is intended for:
 
@@ -667,7 +670,7 @@ Industrial systems control physical processes. Techniques that appear harmless i
 
 Training Lab Notice: The Emergency Stop implementation in this lab is intended for educational process simulation. It should not be interpreted as a design example for a production safety system. Actual machinery requires appropriate safety-rated components, engineering, risk assessment, and compliance with applicable standards.
 
-📜 License
+## 📜 License
 
 This fork retains the licensing requirements of the original PLC-Trainer-Kit project.
 
