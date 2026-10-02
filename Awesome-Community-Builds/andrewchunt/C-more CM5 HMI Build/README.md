@@ -97,26 +97,6 @@ Represents a plant motor or industrial process
 
 ## 🏗️ Simplified Architecture
 
-                  Isolated OT / ICS Network
-                       192.168.1.0/24
-                              │
-                    ┌─────────┴─────────┐
-                    │    UniFi Switch   │
-                    │     Flex Mini     │
-                    │    192.168.1.2    │
-                    └─────────┬─────────┘
-                 ┌────────────┴────────────┐
-          ┌─────────────┐           ┌─────────────┐
-          │    CLICK    │◄─────────►│    C-more   │
-          │     PLC     │  Ethernet │   CM5-T7W   │
-          │ 192.168.1.3 │           │ 192.168.1.4 │
-          └──────┬──────┘           └─────────────┘
-                 │ Physical I/O
-       ┌─────────┼───────────┐
-  Pushbuttons  Relays      E-Stop
-                 │
-            Fan or Motor
-
 ```mermaid
 flowchart TD
     NET["Isolated OT / ICS Network<br/>192.168.1.0/24"]
