@@ -105,22 +105,16 @@ Represents a plant motor or industrial process
                     │     Flex Mini     │
                     │    192.168.1.2    │
                     └─────────┬─────────┘
-                              │
                  ┌────────────┴────────────┐
-                 │                         │
-          ┌──────▼──────┐           ┌──────▼──────┐
+          ┌─────────────┐           ┌─────────────┐
           │    CLICK    │◄─────────►│    C-more   │
           │     PLC     │  Ethernet │   CM5-T7W   │
           │ 192.168.1.3 │           │ 192.168.1.4 │
           └──────┬──────┘           └─────────────┘
-                 │
                  │ Physical I/O
-                 │
        ┌─────────┼───────────┐
-       │         │           │
   Pushbuttons  Relays      E-Stop
                  │
-                 ▼
             Fan / Motor
 
 The trainer represents a simplified industrial environment where an operator interacts with a physical process through both local physical controls and an HMI.
