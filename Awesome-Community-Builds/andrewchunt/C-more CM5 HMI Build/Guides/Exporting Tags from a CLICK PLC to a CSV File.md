@@ -10,29 +10,13 @@ A Nickname provides a descriptive name for a PLC address instead of relying only
 
 For example:
 
-PLC Address
-
-Nickname
-
-X001
-
-Start_Button
-
-X002
-
-Stop_Button
-
-X003
-
-EStop_Button
-
-Y001
-
-Motor_Run
-
-C1
-
-System_Running
+| PLC Address | Nickname |
+|-------------|----------|
+| X001 | Start_Button |
+| X002 | Stop_Button |
+| X003 | EStop_Button |
+| Y001 | Motor_Run |
+| C1 | System_Running |
 
 Using consistent and descriptive nicknames also makes it much easier to identify and map the tags when they are later imported into the C-more HMI project.
 
