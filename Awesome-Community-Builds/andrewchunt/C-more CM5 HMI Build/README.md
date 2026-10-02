@@ -124,12 +124,19 @@ flowchart TD
     PLC["CLICK PLC<br/>192.168.1.3"]
     HMI["C-more CM5-T7W<br/>192.168.1.4"]
     IO["Physical I/O"]
+    Pushbuttons["Pushbuttons"]
+    Relays["Relays"]
+    E-Stop["E-Stop"]
+    Fan / Motor["Fan / Motor"]
 
     NET --> SW
     SW --> PLC
     SW --> HMI
-    PLC <--> HMI
     PLC --> IO
+    IO --> Pushbuttons
+    IO --> Relays
+    IO --> E-Stop
+    Relasy --> Fan / Motor
 ```
 
 The trainer represents a simplified industrial environment where an operator interacts with a physical process through both local physical controls and an HMI.
